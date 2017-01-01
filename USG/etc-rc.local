@@ -1,0 +1,4 @@
+
+## Initialise the VoIP interface as a DMZ - Resistance is futile.
+/sbin/ifconfig eth2 192.168.8.1/24
+
