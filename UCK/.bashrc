@@ -51,6 +51,6 @@ alias c=clear
 alias h=history
 alias ll='ls -lah'
 alias sho=show
-alias grep='grep --color=auto'
+alias grep='grep --color=auto'alias upgrade='echo -e "\nFrom: https://help.ubnt.com/hc/en-us/articles/216655518-UniFi-How-to-Manually-Change-the-Cloud-Key-s-Controller-Version-via-SSH\n\ncd /tmp\nwget https://www.ubnt.com/downloads/unifi/__VERSION__/unifi_sysvinit_all.deb\ndpkg -i unifi_sysvinit_all.deb\nrm unifi_sysvinit_all.deb\ncd"'
 alias validatejson='python -m json.tool /srv/unifi/data/sites/SolarCentral/config.gateway.json'
 
